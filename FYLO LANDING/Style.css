@@ -1,0 +1,493 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: white;
+}
+/* Nav begins */
+.logo-link-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* padding-right: 10%;
+  padding-left: 10%; */ 
+  padding-top: 6%;
+}
+.link {
+  display: flex;
+  gap: 28px;
+}
+.link a {
+  color: #10113e;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 100;
+}
+.hamburger{
+  display: none;
+}
+
+/* Nav ends */
+
+.first-container {
+  display: flex;
+  gap: 100px;
+  padding-top: 10%;
+  align-items: center;
+  justify-content: space-around;
+ padding-right: 10%;
+  padding-left: 10%;
+}
+.first-container h1 {
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+  color: #10113e;
+}
+.first-container p {
+  font-size: 23px;
+  color: #10113e;
+  padding-top: 3%;
+}
+
+.btn-form {
+  display: flex;
+  gap: 10px;
+  padding-top: 4%;
+}
+
+.first-container input {
+  width: 300px;
+  height: 25px;
+  border-radius: 5px;
+  padding: 2%;
+  font-size: 20px;
+}
+.first-container button {
+  width: 200px;
+  height: 55px;
+  border-radius: 5px;
+  background-color: #2f65f9;
+  border: none;
+  cursor: pointer;
+  color: white;
+  transition: all ease-in-out 500ms;
+  font-size: 16px;
+}
+button:active{
+  transform: scale(1.2);
+  background-color: lightblue;
+}
+
+/* Second-container begins */
+.second-container {
+  display: flex;
+  gap: 100px;
+  padding-top: 35%;
+  background-color: #f9f8fe;
+  clip-path: ellipse(100% 70% at bottom);
+  width: 80%;
+  height: 800px;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+.right-cont h1 {
+  font-size: 45px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+  color: #10113e;
+}
+.right-cont p {
+  font-size: 20px;
+  color: #10113e;
+  padding-top: 3%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 35px;
+}
+.right-cont .arrow a {
+  color: rgb(143, 245, 143);
+  text-decoration: underline;
+}
+.right-cont .arrow {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+.right-cont .arrow a:hover {
+  color: #22df51;
+}
+.comment-section {
+  display: flex;
+  flex-direction: column;
+  padding-top: 3%;
+  margin-top: 5%;
+  padding-left: 2%;
+  padding-right: 4%;
+  line-height: 35px;
+  width: 400px;
+  height: 290px;
+  background-color: white;
+  border-radius: 7px;
+  gap: 10px;
+}
+.comment-section img {
+  width: 23px;
+}
+.info {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.info img {
+  width: 70px;
+  border-radius: 35px;
+}
+.info h4 {
+  color: #10113e;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 100;
+}
+.info h3 {
+  color: #10113e;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+}
+
+/* Third container begins */
+.third-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  background-color: #575989;
+}
+.word h1 {
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+  color: white;
+}
+.word p {
+  font-size: 20px;
+  color: white;
+  padding-top: 3%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.mini-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.mini-form input {
+  width: 450px;
+  height: 45px;
+  border-radius: 5px;
+  padding: 2%;
+  font-size: 20px;
+}
+.mini-form button {
+  width: 220px;
+  height: 55px;
+  border-radius: 5px;
+  background-color: #2f65f9;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  background-color: #10113e;
+}
+.group1 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.group1 img {
+  color: white;
+  width: 20px;
+}
+.group1 .photo {
+  width: 260px;
+}
+.group1 p {
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+.group1 .photos {
+  display: flex;
+  gap: 6px;
+}
+.group1 a {
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 22px;
+}
+.group1 a:hover {
+  color: black;
+}
+.photos2 {
+  display: flex;
+  gap: 7px;
+}
+.photos2 i {
+  outline: 1px solid #fff;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  border-radius: 50%;
+  font-size: 1.25rem;
+  color: white;
+}
+
+
+
+.group2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+
+.group2 a {
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 22px;
+}
+.group2 a:hover {
+  color: black;
+}
+
+
+.group3 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+
+.group3 a {
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 22px;
+}
+.group3 a:hover {
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width: 1000px){
+ body{
+  width: 100%;
+ }
+  .logo-link-container{
+    display: flex;
+    font-size: 10px;
+    color: white;
+    align-items: start;
+    justify-content: center;
+   width: 100%;
+    gap: 40px;
+    
+  }
+  .logo img{
+    max-width: 100px;
+  }
+
+  .link{
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+    position: absolute;
+    top: 80px;
+    width: 50%;
+    
+    align-items: center;
+    padding: 1rem 0;
+    background-color: #2f65f9;
+  }
+  .link.active{
+    display: flex;
+  }
+  .hamburger{
+    display: block;
+    background: none;
+    border: none;
+    color: black;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  .link a{
+    font-size: 18px;
+    transition: all 200ms ease;
+    color: white;
+  }
+  .link a:hover{
+    transform: scale(1.1);
+    color: wheat;
+  }
+
+  .first-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .left-container img{
+     width: 400px;
+     height: auto;
+  }
+.left-container{
+ position: relative;
+ right: 60px;
+
+}
+  .first-container h1{
+    font-size: 27px;
+    font-weight: 800;
+  }
+  .first-container p{
+    font-size: 18px;
+
+  }
+  .btn-form{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .first-container button{
+    width: 320px;
+    height: 45px;
+  }
+  .second-container{
+    background-color: #f9f8fe;
+    clip-path: ellipse(300% 90% at bottom);
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 10%;
+  }
+  .left-cont img{
+    width: 280px;
+    height: auto;
+  }
+  .right-cont h1{
+    font-size: 25px;
+    font-weight: 800;
+  }
+  .right-cont p{
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .comment-section{
+    width: 300px;
+    height: 200px;
+  }
+  .comment-section img{
+    width: 40px;
+    height: 40px;
+  }
+  .comment-section h3{
+    font-size: 11px;
+    font-weight: 600;
+  }
+  .comment-section h4{
+    font-size: 11px;
+  }
+  .mini-form input{
+    width: 300px;
+    height: 30px;
+    font-size: 17px;
+  }
+
+  .third-container button{
+    font-size: 17px;
+    width: 320px;
+  }
+
+
+  .third-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+  }
+  .word h1{
+    font-size: 22px;
+    font-weight: 800;
+  }
+  .word p{
+    font-size: 13px;
+  }
+  .word{
+    text-align: left;
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 10px;
+    width: 100%;
+    padding-top: 6%;
+    height: 51%;
+
+  }
+  .group1 a, .group2 a, .group3 a{
+    font-size: 16px;
+  }
+  .photo img{
+    max-width: 100px;
+  }
+} 
+
+
+
+
